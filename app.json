@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name":               "Aptechka",
+    "slug":               "Aptechka",
+    "scheme":             "aptechka",
+    "version":            "1.0.0",
+    "orientation":        "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon":               "./src/assets/icons/android/icon.png",
+    "newArchEnabled":      true,
+
+    
+    "ios": {
+      "supportsTablet": true
+    },
+
+
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./src/assets/icons/android/icon.png"
+      },
+      "package": "com.anonymous.Aptechka"
+    },
+
+
+    "web": {
+      "bundler": "metro",
+      "output":  "static",
+      "favicon": "./src/assets/icons/web/favicon.png"
+    },
+
+    
+    "plugins": [
+      [ "expo-router" ]
+    ],
+
+    
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

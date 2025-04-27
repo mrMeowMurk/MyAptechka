@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "types": [
+      "expo",
+      "react-native"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+}
